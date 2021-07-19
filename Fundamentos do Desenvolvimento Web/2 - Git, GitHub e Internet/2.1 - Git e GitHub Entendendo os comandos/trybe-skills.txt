@@ -1,3 +1,5 @@
-JS
-SQL
-HTML 
+1 - React
+2 - JS
+3 - SQL
+4 - HTML 
+
