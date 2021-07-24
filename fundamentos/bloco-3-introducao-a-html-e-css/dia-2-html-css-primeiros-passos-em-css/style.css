@@ -1,13 +1,43 @@
 h1 {
-  font-size: 65px;
   color: orange;
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-/* #ul {
-  background-color: black;
-} */
+p {
+  font-weight: 600px;
+  font-size: 3em;
+  font-style: oblique;
+  text-align: justify;
+  line-height: 2px;
+  text-decoration: underline;
+}
 
-.background-color-P-UL {
-  background-color: rgba(60, 6, 110, 0.801);
-  color: rgb(238, 204, 141);
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+ul {
+  color: whitesmoke;
+}
+
+.list-style {
+  line-height: 2em;
+  margin-right: 1150px;
+  text-align: left;
+}
+
+#Amarelo {
+  background-color: yellow;
+  color: black;
+}
+
+#Vermelho {
+  background-color: red;
+}
+
+#Marrom {
+  background-color: brown;
 }
