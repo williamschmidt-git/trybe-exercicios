@@ -1,0 +1,33 @@
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+ol,
+li {
+  text-align: center;
+}
+
+li:hover {
+  background: rgb(233, 231, 231);
+  transition: all;
+}
+
+li:active {
+  color: blue;
+}
+
+.lista-ordenada {
+  margin-left: auto;
+  text-align: center;
+}
+
+.listinha {
+  margin-left: 0em;
+  text-align: center;
+}
