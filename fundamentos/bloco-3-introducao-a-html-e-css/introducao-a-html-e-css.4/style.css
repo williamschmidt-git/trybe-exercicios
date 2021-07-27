@@ -8,9 +8,33 @@ nav a {
 }
 
 .navigation-block {
-  background-color: rgb(160, 216, 197);
-  margin-right: 90%;
+  margin-right: 92%;
   padding-bottom: 2px;
   padding-top: 2px;
   padding-left: 2px;
+  position: relative;
+  z-index: 2;
+}
+
+.rectangle {
+  top: 21px;
+  height: 800px;
+  width: 100px;
+  background-color: rgb(201, 131, 67);
+  opacity: 0.3;
+  position: absolute;
+  z-index: 1;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 100px;
+}
+
+h3 {
+  margin-left: 100px;
+}
+
+section {
+  margin-left: 100px;
 }
