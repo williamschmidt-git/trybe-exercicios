@@ -26,15 +26,14 @@ nav a {
   z-index: 1;
 }
 
-h2 {
-  text-align: left;
+main {
   margin-left: 100px;
 }
 
-h3 {
+h4 {
   margin-left: 100px;
 }
 
-section {
+footer {
   margin-left: 100px;
 }
