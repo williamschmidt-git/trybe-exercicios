@@ -1,5 +1,9 @@
-let age = 20;
-let name = "Hulk";
+const myName = "William";
+const birthCity = "Curitiba";
+let birthYear = 1993;
 
-console.log(age);
-console.log(name);
+console.log(myName + "\n" + birthCity + "\n" + birthYear)
+
+birthYear = 2030;
+
+console.log(birthYear);
