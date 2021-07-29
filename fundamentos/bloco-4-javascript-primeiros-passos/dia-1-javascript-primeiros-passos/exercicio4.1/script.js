@@ -12,9 +12,14 @@ let sum = 0;
 // console.log(sum);
 
 
-// for (let i = 0; i < numbers.length; i += 1){
-//     sum += numbers[i];
-// }
+for (let i = 0; i < numbers.length; i += 1){
+    sum += numbers[i];
+}
 
-// let  mediaAritmetica = sum / (numbers.length);
-//     console.log(mediaAritmetica);
+let  mediaAritmetica = sum / (numbers.length);
+
+if(mediaAritmetica > 20){
+    console.log("Valor maior que 20.")
+}else {
+    console.log("Valor menor, ou igual a 20.");
+}
