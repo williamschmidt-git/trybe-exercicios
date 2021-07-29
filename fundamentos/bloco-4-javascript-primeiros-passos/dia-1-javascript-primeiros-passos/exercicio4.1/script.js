@@ -5,8 +5,16 @@ let sum = 0;
 //     console.log(numbers[i]);
 // }
 
-for (let i = 0; i < numbers.length; i += 1){
-    sum += numbers[i];
-}
+// for (let i = 0; i < numbers.length; i += 1){
+//     sum += numbers[i];
+// }
 
-console.log(sum);
+// console.log(sum);
+
+
+// for (let i = 0; i < numbers.length; i += 1){
+//     sum += numbers[i];
+// }
+
+// let  mediaAritmetica = sum / (numbers.length);
+//     console.log(mediaAritmetica);
