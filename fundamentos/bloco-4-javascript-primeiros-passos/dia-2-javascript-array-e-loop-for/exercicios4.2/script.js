@@ -62,3 +62,15 @@ let countPar = 0;
 // console.log(countImpar);
 // console.log(countPar);
 
+let arr = [];
+for(let i = 0; i <= 24; i += 1){
+    arr.push(i+1);
+}
+
+let divisao;
+for(let index = 0; index < arr.length; index += 1){
+    divisao = (arr[index]/2);
+    console.log(divisao);
+}
+
+
