@@ -1,4 +1,5 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+numbers = numbers.sort(function(a, b)
 let sum = 0;
 let maiorNumero = numbers[0];
 let menorNumero = numbers[0];
@@ -52,7 +53,6 @@ let countPar = 0;
 //     {   
 //         countPar++;
 //     }
-    
 // }
 
 // if(countImpar === 0){
@@ -67,10 +67,13 @@ for(let i = 0; i <= 24; i += 1){
     arr.push(i+1);
 }
 
+// console.log(arr);
+
 let divisao;
-for(let index = 0; index < arr.length; index += 1){
-    divisao = (arr[index]/2);
-    console.log(divisao);
+for(let i = 0; i < arr.length; i += 1){
+    divisao = (arr[i]/2);
+    // console.log(divisao);
 }
 
+console.table(numbers);
 
