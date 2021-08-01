@@ -4,9 +4,12 @@ let asterisco = "";
 if(n > 1){
     for(row = 0; row < n; row += 1){
         for(spaces = n - 1; spaces > row; spaces -= 1){
-            asterisco += ".";
+            asterisco += " ";
         }
         for(column = 0; column <= row; column += 1){
+            asterisco += "*";
+        }
+        for(column = 0; column < row; column += 1){
             asterisco += "*";
         }
         asterisco += "\n";
@@ -24,6 +27,12 @@ if(n > 1){
     //     }
 
     //     asterisco += "\n";
+    // }
+
+    // for(row = 0; row < n; row += 1){
+    //     for(spaces = n - 1; spaces > row; spaces -= 2){
+    //         asterisco += "-";
+    //     }
     // }
 }
 
