@@ -1,43 +1,22 @@
-let a = 0;
-let b = 0;
+let a = 10;
+let b = 2;
 let soma;
 let subtracao;
 let multiplicacao;
 let divisao;
 let resto;
 
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
+soma = a + b;
+console.log(soma);
 
-  readline.question(`Qual o operador`, operadores => {
-    switch(operadores){
-        case "+":
-            soma = a + b;
-            console.log(soma);
-            break;
-    
-        case "-":
-            subtracao = a - b;
-            console.log(subtracao);
-            break;
-    
-        case "*":
-            multiplicacao = a * b;
-            console.log(multiplicacao);
-            break;
-        
-        case "/":
-            divisao = a / b;
-            console.log(divisao);
-            break;
-        default: 
-            "sair";
-    
-    }
-    readline.close()
-  })
+subtracao = a - b;
+console.log(subtracao);
 
+multiplicacao = a * b;
+console.log(multiplicacao);
 
+divisao = a / b;
+console.log(divisao);
 
+resto = a % b;
+console.log(resto);
