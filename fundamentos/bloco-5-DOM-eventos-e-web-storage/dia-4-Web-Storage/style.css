@@ -1,5 +1,4 @@
-#tela {
-  background-color: blueviolet;
-  height: 900px;
-  border: 7px solid black;
+#caixa-texto {
+  width: 200px;
+  height: 20px;
 }
