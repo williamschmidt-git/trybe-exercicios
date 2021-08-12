@@ -1,8 +1,8 @@
 const firstLi = document.getElementById('first-li');
-const secondLi = document.getElementById('second-li');
-const thirdLi = document.getElementById('third-li');
-const input = document.getElementById('input');
-const myWebpage = document.getElementById('my-spotrybefy');
+const secondLi = document.getElementById('#second-li');
+const thirdLi = document.getElementById('#third-li');
+const input = document.getElementById('#input');
+const myWebpage = document.getElementById('#my-spotrybefy');
 
 /*
  Copie esse arquivo e edite apenas ele;
@@ -18,8 +18,14 @@ a cor do mesmo;
 
 Segue abaixo um exemplo do uso de event.target:
 */
+firstli.addEventListener('click', function adicionaClasseTech () {
 
+    if (firstLi.classList.contains("tech")) { 
+        return false;
+    } else {
 
+    }
+}
 
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
