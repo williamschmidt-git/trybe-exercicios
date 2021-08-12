@@ -1,8 +1,8 @@
-const firstLi = document.getElementById('firstLi');
-const secondLi = document.getElementById('secondLi');
-const thirdLi = document.getElementById('thirdLi');
-const inputTexto = document.getElementById('input');
-const myWebpage = document.getElementById('mySpotrybefy');
+const firstLi = document.getElementById('first-li');
+const secondLi = document.getElementById('second-li');
+const thirdLi = document.getElementById('third-li');
+const input = document.getElementById('input');
+const myWebpage = document.getElementById('my-spotrybefy');
 
 /*
  Copie esse arquivo e edite apenas ele;
@@ -12,17 +12,13 @@ const myWebpage = document.getElementById('mySpotrybefy');
 com a classe 'tech';
  Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 redirecione para alguma página;
-1. Que tal redirecionar para seu portifólio?s
+1. Que tal redirecionar para seu portifólio?
  Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 a cor do mesmo;
 
 Segue abaixo um exemplo do uso de event.target:
 */
-function mudaTexto () {
-  firstLi.innerText = inputTexto.value;
-}
 
-firstLi.addEventListener("click", mudaTexto);
 
 
 function resetText(event) {
@@ -32,11 +28,8 @@ function resetText(event) {
   // que retorna o objeto que disparou o evento.
 }
 
-
 firstLi.addEventListener('dblclick', resetText);
 
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
 // event.target na nossa função retornará o objeto 'firstLi'.
-
-
