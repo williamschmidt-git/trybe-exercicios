@@ -1,0 +1,1 @@
+prompt(“Digite um número”);
