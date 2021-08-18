@@ -24,3 +24,5 @@ let textoFilhoElmnt = document.createTextNode('alo');
 
 filhoElmnt.appendChild(textoFilhoElmnt);
 document.getElementById('elementoOndeVoceEsta').appendChild(filhoElmnt);
+
+//Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
