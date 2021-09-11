@@ -259,7 +259,8 @@ assert.deepStrictEqual(oldBooks, expectedResult6);
 
 const expectedResult7 = 'O Senhor dos Anéis';
 
-const authorWith3DotsOnName = books.filter((book) => {
+const authorWith3DotsOnName = books.filter((book, index) => {
+  // console.log(book.author.name.split(' ')[0][1])
   if (book.author.name[1] === '.' && book.author.name[4] === '.' && book.author.name[7] === '.') {
     return book.name;
   }
