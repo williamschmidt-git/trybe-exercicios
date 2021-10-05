@@ -23,16 +23,19 @@ const conteudos = [
     },
 ];
 
+let iClass = 0;
 
 class Content extends Component {
     render() {
         return conteudos.map((e) => {
-            return <div>
-                <ul>Conteúdo:{e.conteudo}</ul>
+            iClass++;
+            return <div className={(iClass).toString}>
+                <ul>O Conteúdo é:{e.conteudo}</ul>
                 <ul>Status: {e.status}</ul>
                 <ul>Bloco: {e.bloco}</ul>
                 <p>---------------------------------------------------------------------------------</p>
             </div>
+
         })
     }
 }
