@@ -1,4 +1,3 @@
-/* eslint-disable no-useless-escape */
 const pokemons = [
     {
         id: 25,
