@@ -10,7 +10,6 @@ class App extends React.Component {
     this.state = {
       numeroDeCliques: 0,
       segundoNumeroDeCliques: 0,
-      backgroundColor: '',
     }
     this.handleClick = this.handleClick.bind(this);
     this.secHandleClick = this.secHandleClick.bind(this);
@@ -18,11 +17,18 @@ class App extends React.Component {
   }
 
   handleClick() {
+    console.log(this.state.backgroundColor)
+    // let gotButton = document.getElementsByClassName('Botao')[0];
+    // gotButton.style.backgroundColor = this.state.backgroundColor;
+
     if(this.state.numeroDeCliques % 2 === 0) {
-      this.setState({ backgroundColor: 'green'}, () => {
-        console.log(this.state.backgroundColor);
-      })
-    } this.setState({ backgroundColor: 'white'});
+      // this.setState((estadoAnterior, _props) => ({
+      //   backgroundColor: estadoAnterior.backgroundColor = 'green',
+      // }))
+      this.setState({ backgroundColor: 'green' });
+    } else {
+      this.setState({ backgroundColor: 'white'});
+    }
 
     this.setState({ numeroDeCliques: this.state.numeroDeCliques+1 })
     ;
@@ -38,12 +44,23 @@ class App extends React.Component {
     console.log('trybe');
   }
 
+ changeColor = (num) => num % 2 === 0 ? 'green' : 'red';
+
   render() {
     console.log(this);
+    const { numeroDeCliques, segundoNumeroDeCliques } = this.state;
     return (
       <div>
-        <button onClick={this.handleClick}>{this.state.numeroDeCliques}</button>
-        <button onClick={this.secHandleClick}>{this.state.segundoNumeroDeCliques}</button>
+        <button 
+        className="Buttons"
+        onClick={this.handleClick}
+        style={{backgroundColor: this.changeColor(numeroDeCliques)}}>
+           {this.state.numeroDeCliques}
+           </button>
+        <button
+        className="Buttons"
+        onClick={this.secHandleClick}
+        style={{backgroundColor: this.changeColor(segundoNumeroDeCliques)}}>{this.state.segundoNumeroDeCliques}</button>
         <button onClick={this.thirdHandleClick}>meu botão</button>
       </div>
     )
