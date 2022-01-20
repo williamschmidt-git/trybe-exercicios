@@ -1,0 +1,36 @@
+  version: '3'
+
+  services:
+    ghost:
+      image: ghost:1-alpine
+      networks:
+        - my-network
+
+      depends_on:
+        - "db"
+
+      ports:
+        - 2368:2368
+
+      restart: always
+
+      environment:
+        database__client: mysql
+        database__connection__database: ghost
+        database__connection__host: db
+        database__connection__user: root
+        database__connection__password: ximira
+
+    db:
+      image: mysql:5.7
+      networks:
+        - my-network
+
+      volumes:
+        - /var/lib/mysql
+
+      environment:
+        MYSQL_ROOT_PASSWORD: ximira
+
+  networks:
+    my-network:
