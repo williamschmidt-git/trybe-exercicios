@@ -1,5 +1,6 @@
 const exercicio1 = (...num) => {
     const type = num.every((e) => typeof e === 'number')
+
     const promise = new Promise ((resolve, reject) => {
         if(!type) reject(new Error("Insira apenas números"))
         
@@ -13,4 +14,11 @@ const exercicio1 = (...num) => {
     return promise;
 }
 
-exercicio1(10, 10, 3);
+const getRandomNumber = () => {
+    return Math.floor(Math.random() * 100 + 1)
+}
+exercicio1(getRandomNumber(), getRandomNumber(), '1')
+.then(result => console.log(`O resultado é: ${result}`))
+.catch(err => console.log(`erro: ${err.message}`))
+
+module.exp
