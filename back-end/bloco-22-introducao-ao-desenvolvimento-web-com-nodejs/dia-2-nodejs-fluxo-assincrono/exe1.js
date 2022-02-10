@@ -17,8 +17,14 @@ const exercicio1 = (...num) => {
 const getRandomNumber = () => {
     return Math.floor(Math.random() * 100 + 1)
 }
-exercicio1(getRandomNumber(), getRandomNumber(), '1')
-.then(result => console.log(`O resultado é: ${result}`))
-.catch(err => console.log(`erro: ${err.message}`))
 
-module.exp
+async function exercicio1Call(){
+    try { //TRY CATCH É PARA FUNCOES SINCRONAS, O ASYNCAWAIT 'TRANSFORMA' NUM CICLO Q RESPEITA A ORDEM
+        const result = await exercicio1(getRandomNumber(), getRandomNumber(), getRandomNumber())
+        console.log(result)
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+exercicio1Call();
