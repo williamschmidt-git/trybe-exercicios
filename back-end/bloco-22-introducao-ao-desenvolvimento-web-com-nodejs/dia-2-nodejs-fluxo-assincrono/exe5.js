@@ -1,18 +1,14 @@
-//exe5
-const fs = require('fs').promises;
-const file = 'simpsons.json';
+const fs = require("fs").promises;
 
-async function getById(id){
-    const simpsons = await fs.readFile(file, 'utf-8')
-    .then((data) => JSON.parse(data))
+const strings = ['Finalmente', 'estou', 'usando', 'Promise.all', '!!!'];
 
-    const chosenSimpson = simpsons.find((e) => e.id === id)
-    console.log(chosenSimpson)
+async function createFiles(){
+    
+    const createFiles = strings.map((e, i) => {
+        fs.writeFile(`file${i + 1}.txt`, e)
+    })
 
-    if(!chosenSimpson){
-        throw new Error('id não encontrado')
-    }
-
-    return chosenSimpson
+    await Promise.all(createFiles)
 }
-getById('1')
+
+createFiles()
