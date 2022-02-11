@@ -54,15 +54,25 @@ const file = 'simpsons.json';
 
 // simpsonsFamily()
 
-async function addCharacter(){
-    const simpsons = await fs.readFile('./simpsonFamily.json', 'utf-8')
-        .then((data) => JSON.parse(data));
+// async function addCharacter(){
+//     const simpsons = await fs.readFile('./simpsonFamily.json', 'utf-8')
+//         .then((data) => JSON.parse(data));
 
-    simpsons.push({
-        id: '8', name: 'Nelson Muntz'
-    })
+//     simpsons.push({
+//         id: '8', name: 'Nelson Muntz'
+//     })
 
-    fs.writeFile('./simpsonFamily.json', JSON.stringify(simpsons))
+//     fs.writeFile('./simpsonFamily.json', JSON.stringify(simpsons))
+// }
+
+// addCharacter()
+
+async function switchCharacter(){
+    const simpsons = fs.readFile('./simpsonFamily.json', 'utf-8')
+    .then((data) => JSON.parse(data))
+    .then((e) => e.filter((simpson) => simpson.id !== '8'))
+    .then((newArr) => newArr.concat([{id: '8', name: 'Maggie Simpson'}]))
+    .then((updateArr) => fs.writeFile('./simpsonFamily.json', JSON.stringify(updateArr)))
 }
 
-addCharacter()
+switchCharacter()
