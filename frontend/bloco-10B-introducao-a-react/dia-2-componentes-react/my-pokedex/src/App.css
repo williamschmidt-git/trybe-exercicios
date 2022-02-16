@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pokedex{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: end;
+  margin: 3px;
+  align-self:center;
+  justify-self: center;
+  width: 200px;
+  padding: 2px;
+}
+
+.Pokedex img {
+  display: flex;
+  align-self: flex-start;
+}
+
+div div p {
+  margin: 0px
+}
+
+div div h1 {
+  text-align: center;
+}
