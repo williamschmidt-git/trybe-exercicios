@@ -1,0 +1,41 @@
+#fieldset {
+  padding: 2px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+#div-pagina {
+  width: 100%;
+}
+
+.inputs {
+  padding: 0px;
+}
+
+#text-area-resume {
+  width: 50%;
+  height: 100px;
+  resize: none;
+}
+
+#descricao-cargo {
+  width: 50%;
+  height: 100px;
+  resize: none;
+}
+
+#botaoSubmit {
+  margin: 5px;
+  width: 50px;
+  height: 25px;
+  padding: 0px;
+}
+
+#tag-estado {
+  width: 133px;
+}
+/* .tags-Dados {
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 10px;
+} */
