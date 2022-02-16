@@ -41,96 +41,96 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 4: Introdução - JavaScript e Lógica
 
-:black_large_square:  4-1: _JavaScript - Primeiros passos_
+:ballot_box_with_check: 4-1: _JavaScript - Primeiros passos_
 
-:black_large_square: 4-2: _JavaScript - Array e loop For_
+::ballot_box_with_check: 4-2: _JavaScript - Array e loop For_
 
-:black_large_square: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+:ballot_box_with_check: 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 
-:black_large_square: 4-4: _JavaScript - Objetos e funções_
+:ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
-:black_large_square: 4-5: _Projeto - Playground Functions_
+:ballot_box_with_check: 4-5: _Projeto - Playground Functions_
 
   
 ### Bloco 5: Javascript: DOM, Eventos e Web Storage
 
-:black_large_square: 5-1: _JavaScript - DOM e seletores_
+:ballot_box_with_check: 5-1: _JavaScript - DOM e seletores_
 
-:black_large_square: 5-2: _JavaScript - Trabalhando com elementos_
+:ballot_box_with_check: 5-2: _JavaScript - Trabalhando com elementos_
 
-:black_large_square: 5-3: _JavaScript - Eventos_
+:ballot_box_with_check: 5-3: _JavaScript - Eventos_
 
-:black_large_square:  5-4: _JavaScript - Web Storage_
+:ballot_box_with_check:  5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Projeto: Arte com Pixels_
+:ballot_box_with_check: 5.5: _Projeto: Arte com Pixels_
 
-:black_large_square: 5-6: _Projeto - Lista de tarefas_
+:ballot_box_with_check: 5-6: _Projeto - Lista de tarefas_
 
-:black_large_square: 5-7: _Projeto Bônus - Meme Generator_
+:ballot_box_with_check: 5-7: _Projeto Bônus - Meme Generator_
 
-:black_large_square: 5-7: _Projeto Bônus - Adivinhe a cor_
+:ballot_box_with_check: 5-7: _Projeto Bônus - Adivinhe a cor_
 
-:black_large_square: 5-7: _Projeto Bônus - Carta Misteriosa_
+:ballot_box_with_check: 5-7: _Projeto Bônus - Carta Misteriosa_
 
 
 ### Bloco 6: HTML & CSS avançado
 
-:black_large_square: 6-1: _HTML & CSS - Forms_
+:ballot_box_with_check: 6-1: _HTML & CSS - Forms_
 
-:black_large_square: 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+:ballot_box_with_check: 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 
-:black_large_square: 6-3: _CSS Flexbox - Part 1_
+:ballot_box_with_check: 6-3: _CSS Flexbox - Part 1_
 
-:black_large_square: 6-4: _CSS Flexbox - Part 2_
+:ballot_box_with_check: 6-4: _CSS Flexbox - Part 2_
 
-:black_large_square: 6-5: _CSS Responsivo - Mobile First_
+:ballot_box_with_check: 6-5: _CSS Responsivo - Mobile First_
 
-:black_large_square: 6-6: _Projeto - Trybewarts_
+:ballot_box_with_check: 6-6: _Projeto - Trybewarts_
 
 ### Bloco 7: JavaScript ES6 & Testes Unitários
 
-:black_large_square: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+:ballot_box_with_check: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 
-:black_large_square: 7-2: _JavaScript ES6 - Objects_
+:ballot_box_with_check: 7-2: _JavaScript ES6 - Objects_
 
-:black_large_square: 7-3: _Testes unitários em JavaScript_
+:ballot_box_with_check: 7-3: _Testes unitários em JavaScript_
 
-:black_large_square: 7-4: _Projeto - JavaScript Testes Unitários_
+:ballot_box_with_check: 7-4: _Projeto - JavaScript Testes Unitários_
 
 
 ### Bloco 8: Higher Order Functions do JavaScript ES6
 
-:black_large_square:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
+:ballot_box_with_check:8-1: _JavaScript ES6 - Introdução Higher Order Functions_
 
-:black_large_square: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+:ballot_box_with_check: 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 
-:black_large_square: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+:ballot_box_with_check: 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 
-:black_large_square: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+:ballot_box_with_check: 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 
-:black_large_square: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+:ballot_box_with_check: 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 
-:black_large_square: 8-5: _Projeto - Zoo functions_
+:ballot_box_with_check: 8-5: _Projeto - Zoo functions_
 
 
 ### Bloco 9: Javascript Assíncrono e Promises
 
-:black_large_square: 9-1: _JavaScript Assíncrono e Callbacks_
+:ballot_box_with_check: 9-1: _JavaScript Assíncrono e Callbacks_
 
-:black_large_square: 9-2: _JavaScript Promises_
+:ballot_box_with_check: 9-2: _JavaScript Promises_
 
-:black_large_square: 9-3: _Projeto - Carrinho de Compras_
+:ballot_box_with_check: 9-3: _Projeto - Carrinho de Compras_
 
 
 ### Bloco 10: Testes automatizados com Jest
 
-:black_large_square: 10-1: _Primeiros passos no Jest_
+:ballot_box_with_check: 10-1: _Primeiros passos no Jest_
 
-:black_large_square: 10-2: _Jest - Testes Assíncronos_
+:ballot_box_with_check: 10-2: _Jest - Testes Assíncronos_
 
-:black_large_square: 10-3: _Jest - Simulando comportamentos_
+:ballot_box_with_check: 10-3: _Jest - Simulando comportamentos_
 
-:black_large_square: 10-4: _Projeto - Jest Assíncrono e Mocking_
+:ballot_box_with_check: 10-4: _Projeto - Jest Assíncrono e Mocking_
 
   
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
@@ -138,79 +138,81 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ### Bloco 11: Introdução - React
 
-:black_large_square: 11-1: _'Hello, world!' no React!_
+:ballot_box_with_check: 11-1: _'Hello, world!' no React!_
 
-:black_large_square: 11-2: _Componentes React_
+:ballot_box_with_check: 11-2: _Componentes React_
 
-:black_large_square: 11-3: _Projeto - Movie Cards Library_
+:ballot_box_with_check: 11-3: _Projeto - Movie Cards Library_
 
  
 ### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-:black_large_square: 12-1: _Components com estado e eventos_
+:ballot_box_with_check: 12-1: _Components com estado e eventos_
 
-:black_large_square: 12-2: _Formulários no React_
-:black_large_square: 12-3: _Projeto - Movie Cards Library Stateful_
+:ballot_box_with_check: 12-2: _Formulários no React_
+
+:ballot_box_with_check: 12-3: _Projeto - Movie Cards Library Stateful_
 
 ### Bloco 13: Ciclo de Vida de Componentes e React Router
 
-:black_large_square: 13-1: _Ciclo de vida de componentes_
-:black_large_square: 13-2: _React Router_
+:ballot_box_with_check: 13-1: _Ciclo de vida de componentes_
 
-:black_large_square: 13-3: _Projeto - Movie Cards Library CRUD_
+:ballot_box_with_check: 13-2: _React Router_
+
+:ballot_box_with_check: 13-3: _Projeto - Movie Cards Library CRUD_
 
 
 ### Bloco 14: Metodologias ágeis
 
-:black_large_square: 14-1: _Metodologias ágeis_
+:ballot_box_with_check: 14-1: _Metodologias ágeis_
 
-:black_large_square: 14-2: _Projeto - Frontend Online Store_
+:ballot_box_with_check: 14-2: _Projeto - Frontend Online Store_
 
 ### Bloco 15: Testes automatizados com React Testing Library
 
-:black_large_square: 15-1: _RTL - Primeiros Passos_
+:ballot_box_with_check: 15-1: _RTL - Primeiros Passos_
 
-:black_large_square: 15-2: _RTL - Mocks e Inputs_
+:ballot_box_with_check: 15-2: _RTL - Mocks e Inputs_
 
-:black_large_square: 15-2: _RTL: Testando com React Router_
+:ballot_box_with_check: 15-2: _RTL: Testando com React Router_
 
-:black_large_square: 15-3: _Projeto - Testes em React_
+:ballot_box_with_check: 15-3: _Projeto - Testes em React_
 
 
 ### Bloco 16: Introdução ao Redux
 
-:black_large_square: 16-1: _Introdução ao Redux - O estado global da aplicação_
+:ballot_box_with_check: 16-1: _Introdução ao Redux - O estado global da aplicação_
 
-:black_large_square: 16-2: _Usando o Redux no React_
+:ballot_box_with_check: 16-2: _Usando o Redux no React_
 
-:black_large_square: 16-3: _Usando o Redux no React - Prática_
+:ballot_box_with_check: 16-3: _Usando o Redux no React - Prática_
 
-:black_large_square: 16-4: _Usando o Redux no React - Actions Assíncronas_
+:ballot_box_with_check: 16-4: _Usando o Redux no React - Actions Assíncronas_
 
-:black_large_square: 16-5: _Testes em React-Redux_
+:ballot_box_with_check: 16-5: _Testes em React-Redux_
 
-:black_large_square:16-6: _Projeto - Trybe Wallet_
+:ballot_box_with_check:16-6: _Projeto - Trybe Wallet_
   
 
 ### Bloco 17: Projeto React
 
-:black_large_square: 17-1: _Projeto - Jogo de Trivia_
+:ballot_box_with_check: 17-1: _Projeto - Jogo de Trivia_
 
 
 ### Bloco 18: Context API & Reack Hooks
 
-:black_large_square: 18-1: _Context API do React_
+:ballot_box_with_check: 18-1: _Context API do React_
 
-:black_large_square: 18-2: _React Hooks - useState e useContext_
+:ballot_box_with_check: 18-2: _React Hooks - useState e useContext_
 
-:black_large_square: 18-3: _React Hooks - useEffect e Hooks customizados_
+:ballot_box_with_check: 18-3: _React Hooks - useEffect e Hooks customizados_
 
-:black_large_square: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
+:ballot_box_with_check: 18-4: _Projeto - StarWars Datatable com Context API e Hooks_
 
 
 ### Bloco 19: Projeto Final de Front-end
 
-:black_large_square: 19-1: _Projeto - App de Receitas_
+:ballot_box_with_check: 19-1: _Projeto - App de Receitas_
 
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
