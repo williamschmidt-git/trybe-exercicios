@@ -18,10 +18,6 @@ app.post('/recipes', validatePrice, function(req, res){
     return res.status(201).json({ message: `o preço é: ${ price } `});
 })
 
-// app.put('/recipes:id', validatePrice, function(req, res) {
-
-// })
-
 app.listen(3001, () => {
     console.log(`ouvindo na porta 3001`)
 });
