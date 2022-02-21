@@ -13,10 +13,12 @@
         res.status(200).json(authors);
     })
 
-    app.get('/books', async(req, res) => {
+    app.get('/books', async (req, res) => {
         const books = await book.getAll();
+
+        res.status(200).json(books)
     })
-    
+
     const PORT = process.env.PORT || 3000;
 
     app.listen(PORT, () => {
