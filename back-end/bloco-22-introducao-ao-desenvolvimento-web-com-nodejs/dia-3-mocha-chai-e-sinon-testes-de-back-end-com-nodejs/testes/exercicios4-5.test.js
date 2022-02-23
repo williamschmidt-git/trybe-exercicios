@@ -1,4 +1,6 @@
-const { expect, assert } = require('chai');
+const { expect } = require('chai');
+const fs = require('fs');
+const sinon = require('sinon');
 
 const { writeFile } = require('../exercicios/exercicios4-5');
 
@@ -16,6 +18,16 @@ const { writeFile } = require('../exercicios/exercicios4-5');
 
 
 describe('Verifica os exercícios 4 e 5', () => {
+
+    before(() => {
+        sinon.stub(fs, 'writeFileSync')
+    });
+
+    after(() => {
+        fs.writeFileSync.restore();
+    });
+        
+
     it('verifica se é uma string', () => {
         const answer = writeFile('arquivo.txt', 'vqv time')
 

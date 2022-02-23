@@ -1,13 +1,7 @@
 const fs = require('fs');
 
-const writeFile = () => {
+module.exports = (nomeDoArquivo, conteudoDoArquivo) => {
+  fs.writeFileSync(`${__dirname}/${nomeDoArquivo}`, conteudoDoArquivo);
 
-    const newWfile = fs.writeFileSync('arquivo.txt', 'vqv time')
-
-
-    return 'ok';
-}
-
-module.exports = {
-    writeFile
-}
+  return 'ok';
+};
