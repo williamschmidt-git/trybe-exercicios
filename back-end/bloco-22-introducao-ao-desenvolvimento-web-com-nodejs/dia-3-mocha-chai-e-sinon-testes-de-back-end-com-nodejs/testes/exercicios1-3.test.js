@@ -12,6 +12,26 @@ describe('Exercício 1', () => {
         expect(checkNumber).to.be.a('function');
     });
 
+    describe('Quando number não é um número', () => {
+        it('testa se é número', () => {
+            const check = checkNumber({})
+            try {
+                check;
+                assert(false);
+            } catch (error) {
+                assert(true, 'input inválido');
+            }
+        })
+    })
+
+    describe('Quando for uma string', () => {
+        it('Verifica se o retorno é uma string', () => {
+            const check = checkNumber(1);
+
+            expect(check).to.be.a('string');
+        })
+    })
+
     describe('validação de números', () => {
         it('testa se o número é positivo', () => {
             const positivo = 'positivo'
