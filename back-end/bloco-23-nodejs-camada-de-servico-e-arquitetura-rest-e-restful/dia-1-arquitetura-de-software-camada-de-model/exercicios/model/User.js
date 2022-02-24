@@ -24,8 +24,19 @@ async function getAllUsers(){
     SELECT * FROM users_crud.user`).then(([results]) => results.map(formatUser));
 }
 
+async function findById(id){
+    const user = await connection.execute(`
+        SELECT * FROM users_crud.user WHERE id = ? 
+    `, [id]).then(([results]) => results.length ? results[0] : null)
+
+    if(!user) return null;
+
+    return formatUser(user);
+}
+
 module.exports = {
     formatUser,
     createUser,
     getAllUsers,
+    findById
 }
