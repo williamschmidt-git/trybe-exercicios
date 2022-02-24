@@ -1,4 +1,3 @@
-const e = require('express');
 const connection = require('./connection');
 
 const getAll = async () => {
@@ -34,6 +33,7 @@ const findById = async (search) => {
 
     return getBooks(teste)
 }
+
 
 
 

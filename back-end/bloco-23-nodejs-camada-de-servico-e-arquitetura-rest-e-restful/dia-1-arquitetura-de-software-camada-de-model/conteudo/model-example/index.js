@@ -3,7 +3,7 @@
     const express = require('express');
 
     const author = require('./models/Author');
-    const book = require('./models/book');
+    const book = require('./models/Book');
 
     const app = express();
 
@@ -36,9 +36,7 @@
 
         return res.status(200).json(newBook);
     })
-
     
-
     const PORT = process.env.PORT || 3000;
 
     app.listen(PORT, () => {
