@@ -17,10 +17,30 @@ const serialize = ({ cep, logradouro, bairro, localidade, uf }) => {
         localidade,
         uf,
     }
+}
 
+const create = async ({ cep, logradouro, bairro, localidade, uf }) => {
+    const newCep = cep.replace('-', '');
+
+    const query = `
+    INSERT INTO ceps 
+        (cep, logradouro, bairro, localidade, uf)
+        VALUES
+        (?, ?, ?, ?, ?)`;
+
+    await connection.execute(query, [newCep, logradouro, bairro, localidade, uf]);
+
+    return {
+        newCep,
+        logradouro,
+        bairro,
+        localidade,
+        uf
+    }
 }
 
 
 module.exports = {
-    findByCep
+    findByCep,
+    create
 }
