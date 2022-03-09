@@ -2,7 +2,7 @@
   "development": {
     "username": "trybe",
     "password": "@Trybe12345",
-    "database": "exercicios_24.1",
+    "database": "exercicios24-1",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
