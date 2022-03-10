@@ -4,7 +4,7 @@ module.exports = {
       [
         {
           city: 'Belo Horizonte',
-          street: 'Rua Florida',
+          street: 'Rua Flórida',
           number: 1080,
           employee_id: 1,
         },
@@ -27,16 +27,10 @@ module.exports = {
           employee_id: 4,
         },
         {
-          city: 'Belo Horizonte',
-          street: 'Rua Vicente Alvarenga',
-          number: 80,
-          employee_id: 1,
-        },
-        {
           city: 'Curitiba',
           street: 'Rua Fria',
           number: 101,
-          employee_id: 5,
+          employee_id: 4,
         },
       ],
       {},
