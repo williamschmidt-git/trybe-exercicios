@@ -12,10 +12,17 @@ module.exports = (sequelize, DataTypes) => {
       underscored: true,
     });
   
+    //RELAÇÃO 1-1
     Employee.associate = (models) => {
       Employee.hasOne(models.Address,
         { foreignKey: 'employee_id', as: 'addresses' });
     };
+
+    //  RELAÇÃO 1-N
+    // Employee.associate = (models) => {
+    //   Employee.hasMany(models.Address,
+    //     { foreignKey: 'employee_id', as: 'addresses'})
+    // }
   
     return Employee;
   };
