@@ -7,11 +7,9 @@ sum_of_values = 0
 
 
 for value in values:
-
     if value != " ":
         if value.isdigit():
-            new_value = int(value)
-            sum_of_values += new_value
+            sum_of_values += int(value)
         else:
             print(f"Erro ao somar os números {value}")
 
